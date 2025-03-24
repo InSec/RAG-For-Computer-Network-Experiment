@@ -1,27 +1,28 @@
 # RAG
 
-from models.embedder import Embedder
 from models.retriever import Retriever
 from models.generator import Generator
+from config import *
 
 
 class RAG:
-    def __init__(self, api_key):
-        # 加载知识库
-        embedder = Embedder()
-        self.texts, self.embeddings = embedder.load_embeddings()
-        self.retriever = Retriever()
-        self.generator = Generator(api_key)
+    def __init__(self,):
+        self.config1 = {
+            "vector_db_path": VECTOR_DB_PATH,
+            "model_name": RETRIEVE_MODEL,
+            "extra_query": EXTRA_QUERY,
+            "top_k": TOP_K,
+        }
+        self.config2 = {
+            'model_name': GENERATE_MODEL,
+            'api_key': API_KEY,
+            'base_url': BASE_URL
+        }
+        self.retriever = Retriever(**self.config1)
+        self.generator = Generator(**self.config2)
 
-    def answer_query(self, query, top_k=3):
-        # 查询向量化
-        embedder = Embedder()
-        query_embedding = embedder.model.encode(query)
+    def answer_query(self, query):
+        context = self.retriever.retrieve(query)
+        answer = self.generator.generate_ds(query, context)
 
-        # 检索相关内容
-        results = self.retriever.retrieve(query_embedding, top_k=top_k)
-        context = "\n".join([text for text, _ in results])
-
-        # 生成回答
-        answer = self.generator.generate(query, context)
         return answer

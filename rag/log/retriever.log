@@ -1,0 +1,50 @@
+2025-03-21 17:38:50,175 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-21 17:48:12,672 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-21 17:48:13,367 - models.retriever - ERROR - ����ʧ��: 'function' object has no attribute 'embed_query'
+2025-03-21 17:48:13,863 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 402 Payment Required"
+2025-03-21 18:23:03,526 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-21 18:23:04,837 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 402 Payment Required"
+2025-03-21 18:23:38,017 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-21 18:31:07,122 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-21 18:31:29,775 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 18:33:45,400 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-21 18:34:08,969 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 18:35:00,067 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-21 18:37:07,099 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-21 18:37:07,424 - models.embedder - WARNING - 正在清除向量数据库: E:\pythonProject\RAG-For-Computer-Network-Experiment\rag\vector_db
+2025-03-21 18:37:07,432 - models.embedder - INFO - 发现 4 个待处理文件
+2025-03-21 18:37:07,436 - models.embedder - ERROR - 处理文件 E:\pythonProject\RAG-For-Computer-Network-Experiment\rag\data\raw_data\EldenRing1.txt 失败: unstructured package not found, please install it with `pip install unstructured`
+2025-03-21 18:37:07,438 - models.embedder - ERROR - 处理文件 E:\pythonProject\RAG-For-Computer-Network-Experiment\rag\data\raw_data\EldenRing2.txt 失败: unstructured package not found, please install it with `pip install unstructured`
+2025-03-21 18:37:07,439 - models.embedder - ERROR - 处理文件 E:\pythonProject\RAG-For-Computer-Network-Experiment\rag\data\raw_data\EldenRing3.txt 失败: unstructured package not found, please install it with `pip install unstructured`
+2025-03-21 18:37:07,440 - models.embedder - ERROR - 处理文件 E:\pythonProject\RAG-For-Computer-Network-Experiment\rag\data\raw_data\EldenRing4.txt 失败: unstructured package not found, please install it with `pip install unstructured`
+2025-03-21 18:37:07,441 - models.embedder - INFO - 处理完成！共生成 0 个文本块
+2025-03-21 18:46:25,119 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-21 18:46:25,357 - models.embedder - WARNING - 正在清除向量数据库: E:\pythonProject\RAG-For-Computer-Network-Experiment\rag\vector_db
+2025-03-21 18:46:25,364 - models.embedder - INFO - 发现 4 个待处理文件
+2025-03-21 18:46:25,366 - models.embedder - ERROR - 处理文件 E:\pythonProject\RAG-For-Computer-Network-Experiment\rag\data\raw_data\EldenRing1.txt 失败: name 'UnstructuredFileLoader' is not defined
+2025-03-21 18:46:25,367 - models.embedder - ERROR - 处理文件 E:\pythonProject\RAG-For-Computer-Network-Experiment\rag\data\raw_data\EldenRing2.txt 失败: name 'UnstructuredFileLoader' is not defined
+2025-03-21 18:46:25,367 - models.embedder - ERROR - 处理文件 E:\pythonProject\RAG-For-Computer-Network-Experiment\rag\data\raw_data\EldenRing3.txt 失败: name 'UnstructuredFileLoader' is not defined
+2025-03-21 18:46:25,367 - models.embedder - ERROR - 处理文件 E:\pythonProject\RAG-For-Computer-Network-Experiment\rag\data\raw_data\EldenRing4.txt 失败: name 'UnstructuredFileLoader' is not defined
+2025-03-21 18:46:25,368 - models.embedder - INFO - 处理完成！共生成 0 个文本块
+2025-03-21 18:47:52,044 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-21 18:47:52,321 - models.embedder - WARNING - 正在清除向量数据库: E:\pythonProject\RAG-For-Computer-Network-Experiment\rag\vector_db
+2025-03-21 18:47:52,330 - models.embedder - INFO - 发现 4 个待处理文件
+2025-03-21 18:49:22,482 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-21 18:49:22,722 - models.embedder - WARNING - 正在清除向量数据库: E:\pythonProject\RAG-For-Computer-Network-Experiment\rag\vector_db
+2025-03-21 18:49:22,729 - models.embedder - INFO - 发现 4 个待处理文件
+2025-03-21 19:28:28,740 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-21 19:33:32,019 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-21 19:33:32,249 - models.embedder - WARNING - 正在清除向量数据库: E:\pythonProject\RAG-For-Computer-Network-Experiment\rag\vector_db
+2025-03-21 19:33:32,259 - models.embedder - INFO - 发现 4 个待处理文件
+2025-03-21 19:35:48,425 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-21 19:35:48,699 - models.embedder - WARNING - 正在清除向量数据库: E:\pythonProject\RAG-For-Computer-Network-Experiment\rag\vector_db
+2025-03-21 19:35:48,706 - models.embedder - INFO - 发现 4 个待处理文件
+2025-03-21 19:36:35,882 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-21 19:36:36,103 - models.embedder - WARNING - 正在清除向量数据库: E:\pythonProject\RAG-For-Computer-Network-Experiment\rag\vector_db
+2025-03-21 19:36:36,110 - models.embedder - INFO - 发现 4 个待处理文件
+2025-03-21 19:37:31,178 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-21 19:37:31,399 - models.embedder - WARNING - 正在清除向量数据库: E:\pythonProject\RAG-For-Computer-Network-Experiment\rag\vector_db
+2025-03-21 19:37:31,406 - models.embedder - INFO - 发现 4 个待处理文件
+2025-03-21 19:43:31,303 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-21 19:43:31,700 - models.embedder - WARNING - 正在清除向量数据库: E:\pythonProject\RAG-For-Computer-Network-Experiment\rag\vector_db
+2025-03-21 19:43:31,711 - models.embedder - INFO - 发现 4 个待处理文件

@@ -1,12 +1,12 @@
 from flask import Blueprint, request, jsonify
 import openai
-from rag import RAG
+
 
 main_routes = Blueprint('main', __name__)
 
 
 # 登录验证接口
-@main_routes.route('/api/login', methods=['POST'])
+@main_routes.route('/login', methods=['POST', 'GET'])
 def login():
     data = request.json
     if data['username'] == 'admin' and data['password'] == '123456':
@@ -14,7 +14,7 @@ def login():
     return jsonify({'message': 'Invalid credentials', 'status': 'error'})
 
 # 智能问答接口
-@main_routes.route('/api/qa', methods=['POST'])
+@main_routes.route('/qa', methods=['POST'])
 def question_answering():
     question = request.json.get('question')
     context = "计算机网络实验相关知识"
